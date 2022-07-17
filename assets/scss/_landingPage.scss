@@ -36,7 +36,7 @@
     &__home {
         &--main {
             @include header-width;
-            padding: 35px 20px 30px;
+            padding:45px 20px 30px;
             @include grid-2-header;
             position: relative;
             z-index: 1;
@@ -82,7 +82,7 @@
         &--bg {
             background-color: var(--very-pale-cyan);
             position: relative;
-            padding: 50px 0 65px;
+            padding: 50px 0 55px;
 
             &::before {
                 content: '';
@@ -141,10 +141,10 @@
     padding: 60px 0 280px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 45px;
 
     @media screen and (min-width:992px) {
-        padding: 160px 0 345px;
+        padding: 162px 0 352px;
     }
 }
 
