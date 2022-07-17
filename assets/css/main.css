@@ -187,7 +187,7 @@ button {
   .header--bg {
     background-color: var(--very-pale-cyan);
     position: relative;
-    padding: 60px 0;
+    padding: 50px 0 70px;
   }
   .header--bg::before {
     content: "";
@@ -243,7 +243,7 @@ button {
 }
 @media screen and (min-width: 992px) {
   .landingPage {
-    padding: 170px 0 330px;
+    padding: 166px 0 330px;
   }
 }
 
@@ -268,7 +268,7 @@ button {
 @media screen and (min-width: 992px) {
   .growTogether,
 .yourUsers {
-    padding: 70px 60px;
+    padding: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -349,7 +349,7 @@ button {
 }
 @media screen and (min-width: 992px) {
   .flowingConversation {
-    padding: 70px 60px;
+    padding: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -405,7 +405,7 @@ button {
 
 .footer--bg {
   background-color: var(--very-dark-cyan);
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 .footer__top {
   width: 100%;
