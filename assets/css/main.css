@@ -79,7 +79,7 @@ button {
 .button-white {
   background-color: var(--white);
   color: var(--very-dark-cyan);
-  padding: 13px 28px;
+  padding: 13px 42px;
   position: relative;
 }
 .button-white:hover, .button-white:focus {
@@ -187,7 +187,7 @@ button {
   .header--bg {
     background-color: var(--very-pale-cyan);
     position: relative;
-    padding: 35px 0;
+    padding: 50px 0;
   }
   .header--bg::before {
     content: "";
@@ -243,7 +243,7 @@ button {
 }
 @media screen and (min-width: 992px) {
   .landingPage {
-    padding: 120px 0 280px;
+    padding: 180px 0 280px;
   }
 }
 
@@ -405,6 +405,7 @@ button {
 
 .footer--bg {
   background-color: var(--very-dark-cyan);
+  padding-bottom: 40px;
 }
 .footer__top {
   width: 100%;
