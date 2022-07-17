@@ -187,7 +187,7 @@ button {
   .header--bg {
     background-color: var(--very-pale-cyan);
     position: relative;
-    padding: 50px 0;
+    padding: 60px 0;
   }
   .header--bg::before {
     content: "";
@@ -234,7 +234,7 @@ button {
   padding: 60px 0 280px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 36px;
 }
 @media screen and (min-width: 1200px) {
   .landingPage {
@@ -243,7 +243,7 @@ button {
 }
 @media screen and (min-width: 992px) {
   .landingPage {
-    padding: 180px 0 280px;
+    padding: 170px 0 330px;
   }
 }
 
@@ -268,7 +268,7 @@ button {
 @media screen and (min-width: 992px) {
   .growTogether,
 .yourUsers {
-    padding: 60px;
+    padding: 70px 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -349,7 +349,7 @@ button {
 }
 @media screen and (min-width: 992px) {
   .flowingConversation {
-    padding: 60px;
+    padding: 70px 60px;
   }
 }
 @media screen and (min-width: 1200px) {
